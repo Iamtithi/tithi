@@ -26,11 +26,34 @@
              border-color:black;
                border-style: solid;
                padding: 9px;
+               box-shadow: 3px 3px magenta;
+               
         }
+        p,h1{
+          color: blue;
+          text-shadow : 1.5px 1.5px black;
+        }
+        @media (max-width:700px) {
+            
+          .div1{
+
+              background-color :blanchedalmond;
+          }
+
+        }
+        @media (max-width : 1000px){
+            .div1{
+                background-color: darkseagreen;
+                box-shadow: brown;
+            }
+        }
+            
+        
     </style>
 </head>
-<body>
+<body class="div1">
     <h1>Hello,</h1>
+    <p> Welcome to Our Page</p>
     <div class="paint">
 
         <div>

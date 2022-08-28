@@ -1,0 +1,43 @@
+.navup{
+    height: 120px;
+    background-color: whitesmoke;
+    display :flex
+}
+*{
+    margin: 0%;
+}
+.navdown{
+    height: 70px;
+     background-color:#26264e ;
+     text-align: center;
+     display: flex;
+}
+/* .home{
+    height: 900px;
+    background-color: bisque;
+    display: flex;
+} */
+.navdown a{
+    margin: 20px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding : 13px 13px;
+}
+.home img{
+    width: 100%;
+    height: 700px;
+    
+}
+.about{
+    background-color: aquamarine;
+}
+.navup img{
+    /* padding-left: 30px; */
+    margin-top: 10px;
+    margin-bottom: 9px;
+    margin-left: 215px;
+    margin-right: 70px;
+    border: 2px solid black;
+    
+}
